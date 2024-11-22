@@ -45,11 +45,24 @@ the OpenShift AI Engineering 2024 OKRs. This script will:
   for determining the end date of a sprint is weak and is an area of future improvement.
 
 To use this script, run the following: (you should provide the date for
-which you're interested in the format `yyyy-mm-dd`)
+which you're interested in the format `yyyy-mm-dd`) (**Important** The target date should be the last day of the sprint)
 ```
 pipenv shell
 pipenv install
 python 2024_okr1_report.py -t $PATH_TO_TOKEN -d $TARGET_DATE
+```
+
+### issues_in_features_initiatives.py
+
+This script is used to print out a list of all Jira issues related to a
+RHOAI Feature or Inititative. This script is not typically used, but was
+kept in this repo for reference purposes.
+
+To use this script, run the following:
+```
+pipenv shell
+pipenv install
+python issues_in_features_initiatives.py -t $PATH_TO_TOKEN
 ```
 
 ### Helper Functions
