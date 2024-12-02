@@ -1,7 +1,9 @@
 # OpenShift AI Jira Reporting
 
 This repository contains scripts for reporting on various agile metrics for the OpenShift
-AI team, pulling data from Red Hat's Jira instance as the source of truth.
+AI team, pulling data from Red Hat's Jira instance as the source of truth. Scripts use
+the [Jira]https://pypi.org/project/jira/] python library for interacting with the
+Jira API.
 
 ## Setup and Prerequisites
 
